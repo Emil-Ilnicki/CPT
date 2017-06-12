@@ -14,9 +14,9 @@
      function fill() {
 	  console.log('In fill');
 	  $.getJSON('proj.json', function(data){
+		console.log('In JSON');
 	  	while(typeof json["proj" + jsoncount] != "undefined"){
 			proj.push(jsoncount);
-			console.log('In JSON');
 	  		//proj.push(data["proj" + jsoncount].event_name);
 	  		jsoncount++;
 	  	}
