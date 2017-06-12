@@ -8,15 +8,12 @@
 	
 	var myTitle
 	var counter = 0;
-	var request = new XMLHtppRequest();
+	var proj = [];
 		
         function fill() {
-	  request.open('GET', 'proj.json');
-          request.onreadystatechange = fuction() {
-		var items = JSON.parse(request.responseText); 
-		console.log(items);  
-	  }
-	   request.send();  
+	  $.getJSON("proj.json", function(data){
+	     console.log("It works");    
+          });
         }
 
 	function callArray(){
