@@ -15,6 +15,7 @@
 	  $.getJSON('proj.json', function(data){
 	  	while(typeof json["proj" + jsoncount] != "undefined"){
 			proj.push(jsoncount);
+			console.log('In JSON');
 	  		//proj.push(data["proj" + jsoncount].event_name);
 	  		jsoncount++;
 	  	}
@@ -26,7 +27,7 @@
 	function callArray(){
 	  var random = Math.floor(Math.random()*3);
 	  fill(); 
-	 
+	 console.log('In callArray');
 		
 	  if (counter > 1){
 	    document.getElementById("Button").disabled = true; 
