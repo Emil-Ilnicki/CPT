@@ -1,6 +1,7 @@
 {
   "projects": [
-    { // projects[0].proj_name0 = Stuff 1
+    // projects[0].proj_name0 = Stuff 1
+    {
       "proj_name0": "Stuff 1"
     },
     
