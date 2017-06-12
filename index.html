@@ -8,11 +8,12 @@
 	
 	var myTitle
 	var counter = 0;
+	var obj = JSON.parse(project);
 	var proj = [];
 		
         function fill() {
-	  $.getJSON("proj.json", function(data){
-	     console.log(data.proj0.proj_name);
+	  $.getJSON("proj.json", function(data){     
+	     console.log(obj.proj[0].proj_name);
           });
         }
 
