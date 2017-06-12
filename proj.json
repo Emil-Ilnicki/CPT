@@ -1,16 +1,13 @@
 {
-  "projects": [
-    // projects[0].proj_name0 = Stuff 1
-    {
+  "proj0": {
       "proj_name0": "Stuff 1"
     },
     
-    {
+    "proj1": {
       "proj_name1": "Stuff 2"
     },
     
-    {
+    "proj2": {
       "proj_name2": "Stuff 3"
     }
-  ]
 }
