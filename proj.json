@@ -1,15 +1,15 @@
 {
   "projects": [
     {
-      "proj_name": "Stuff 1"
+      "proj_name0": "Stuff 1"
     },
     
     {
-      "proj_name": "Stuff 2"
+      "proj_name1": "Stuff 2"
     },
     
     {
-      "proj_name": "Stuff 3"
+      "proj_name2": "Stuff 3"
     }
   ]
 }
