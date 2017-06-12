@@ -1,13 +1,13 @@
-[
-  {
+{
+  "Proj1" {
     "proj_name": "Stuff1"
   },
 
-  {
+  "Proj2" {
     "proj_name": "Stuff2"
   },
 
-  {
+  "Proj3" {
     "proj_name": "Stuff3"
   }
-]
+}
