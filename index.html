@@ -3,8 +3,8 @@
 <head>
   <title> JavaScript Example </title>
 </head>
-  	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type="text/javascript">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript">
 	
 	var myTitle
 	var counter = 0;
@@ -14,14 +14,13 @@
      function fill() {
 	  $.getJSON('proj.json', function(data){
 	  	while(typeof json["proj" + jsoncount] != "undefined"){
-	  		proj.push(data["proj" + jsoncount].event_name);
+			proj.push(jsoncount);
+	  		//proj.push(data["proj" + jsoncount].event_name);
 	  		jsoncount++;
 	  	}
 
      });
-
-	  
-
+	     
 	}
 
 	function callArray(){
