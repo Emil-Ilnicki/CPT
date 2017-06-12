@@ -12,8 +12,7 @@
 		
         function fill() {
 	  $.getJSON("proj.json", function(data){
-	     var obj = JSON.parse(project);
-	     console.log(obj.proj0[0].proj_name);
+	     console.log(data.proj0[0].proj_name);
           });
         }
 
