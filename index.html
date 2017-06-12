@@ -14,8 +14,7 @@
      function fill() {
 	  $.getJSON('proj.json', function(data){
 	  	while(typeof json["proj" + jsoncount] != "undefined"){
-	  		proj.push(new Project());
-	  		proj[jsoncount].proj_name = data["proj" + jsoncount].event_name;
+	  		proj[jsoncount] = data["proj" + jsoncount].event_name;
 	  		jsoncount++;
 	  	}
 
@@ -35,11 +34,11 @@
 	    counter++;
 	    document.getElementById("myTextBox").value = proj[1];
 	}
-
+	/*
 	function Project(){
 		this.proj_name;
 	}
-
+	*/
   </script>
 <body>
 	<center><input type="text" id="myTextBox" /></center>
