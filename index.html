@@ -8,22 +8,16 @@
 	
 	var myTitle
 	var counter = 0;
-	var jsoncount = 0;
-	var proj = [];
-	
-     function fill() {
-	  console.log('In fill');
-	  $.getJSON('proj.json', function(data){
-		console.log('In JSON');
-	  	while(typeof json["proj" + jsoncount] != "undefined"){
-			proj.push(jsoncount);
-	  		//proj.push(data["proj" + jsoncount].event_name);
-	  		jsoncount++;
-	  	}
-
-     });
+	var request = new XMLHtppRequest();
+		
+        function fill() {
+	  request.open('GET', 'proj.json');
+          request.onreadystatechange = fuction() {
+		var items = JSON.parse(request.responseText); 
+		console.log(items);  
+	  }
 	     
-	}
+        }
 
 	function callArray(){
 	  var random = Math.floor(Math.random()*3);
