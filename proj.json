@@ -1,4 +1,4 @@
-var projects = {
+{
   "proj0" : [
     {"proj_name" : "Stuff1"} 
   ]  
