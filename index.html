@@ -12,13 +12,12 @@
 		
         function fill() {
 	  $.getJSON("proj.json", function(data){
-	     console.log("It works");    
+	     console.log(data);    
           });
         }
 
 	function callArray(){
 	  var random = Math.floor(Math.random()*3);
-	  console.log('In callArray');
           fill(); 
 		
 	  if (counter > 1){
