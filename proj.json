@@ -1,4 +1,5 @@
 [
+  {
   "proj0": {
     "proj_name": "Stuff 0"
   },
@@ -6,4 +7,5 @@
   "proj1": {
     "proj_name": "Stuff 1"
   }
+ }
 ]
