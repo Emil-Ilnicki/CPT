@@ -12,20 +12,20 @@
 		
         function fill() {
 	  $.getJSON("proj.json", function(data){
-	     console.log(data.projects[0].proj_name0);
+	     var random = Math.floor(Math.random()*3); 
+		  
+	     console.log(data.projects[random].proj_name0);
           });
         }
 
-	function callArray(){
-	  var random = Math.floor(Math.random()*3);
-          fill(); 
+	function callArray(){ 
 		
 	  if (counter > 1){
 	    document.getElementById("Button").disabled = true; 
 	  }
 	  
 	    counter++;
-	    document.getElementById("myTextBox").value = proj[1];
+	    document.getElementById("myTextBox").value = fill();
 	}
   </script>
 <body>
