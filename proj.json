@@ -1,5 +1,15 @@
-[
-  {
-    "proj_name" : "Stuff1" 
-  }  
-]  
+{
+  "projects": [
+    {
+      "proj_name": "Stuff 1"
+    },
+    
+    {
+      "proj_name": "Stuff 2"
+    },
+    
+    {
+      "proj_name": "Stuff 3"
+    }
+  ]
+}
