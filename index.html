@@ -8,12 +8,12 @@
 	
 	var myTitle
 	var counter = 0;
-	var jsoncount = 0;	
-	var proj = [];
+	var jsoncount = 0;
 		
         function fill() {
 	  $.getJSON("proj.json", function(json){
-	     while(typeof json["proj" + jsoncount] != "undefined"){  
+	     while(typeof json["proj" + jsoncount] != "undefined"){
+	     var proj = [];
 	     proj.push(json["proj" + jsoncount]["proj_name"]);
 	     jsoncount++;
 	     }	  
