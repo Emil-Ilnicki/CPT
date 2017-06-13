@@ -47,15 +47,19 @@
           });	  	
         }
 
-	function callArray(){
-	    console.log(img_string);	
+	function callArray(){	
 	    var random = Math.floor(Math.random()*jsoncount)	
 	    document.getElementById("Button").value = proj[random];
 	    img_string = img[random];	
 	}
-  </script>
-console.log(img_string + "1");	
-<body background=img_string>
+		
+	function callImg(){
+          console.log(img_string);
+	  var random = Math.floor(Math.random()*jsoncount)	
+	  img_string = img[random];	
+	} 
+  </script>	
+<body background="callImg();">
 	
 	<center>
 		<input type="Button"  id = "Button"  value = "Click me" onClick="fill()"/>
