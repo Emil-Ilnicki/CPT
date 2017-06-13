@@ -14,7 +14,7 @@
 	  var jsoncount = 0;
 	  $.getJSON("proj.json", function(data){
 	     var toString = jsoncount.toString();
-	     console.log(data.proj.proj_name);
+	     console.log(data.proj+toString.proj_name+toString);
 	     jsoncount++;
           });
         }
