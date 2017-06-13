@@ -33,11 +33,13 @@
         <script type="text/javascript">
 	var myTitle
 	var jsoncount = 0;
-	var proj = [];	
+	var proj = [];
+	var img = [];
         function fill() {	
 	  $.getJSON("proj.json", function(json){    
 	     while(typeof json["proj" + jsoncount] != "undefined"){
 	     proj.push(json["proj" + jsoncount]["proj_name"]);
+             img.push(json["proj" + jsoncount]["img_name"]);		     
 	     jsoncount++;
 	     }	   
 	     callArray();
@@ -49,7 +51,7 @@
 	    document.getElementById("Button").value = proj[random];
 	}
   </script>
-<body background="Background.png">
+<body id="" background="fill()">
 	<center>
 		<input type="Button"  id = "Button"  value = "Click me" onClick="fill()"/>
 	</center> 
