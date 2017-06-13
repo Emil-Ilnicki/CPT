@@ -35,6 +35,7 @@
 	var jsoncount = 0;
 	var proj = [];
 	var img = [];
+	var img_string = "background.png";	
         function fill() {	
 	  $.getJSON("proj.json", function(json){    
 	     while(typeof json["proj" + jsoncount] != "undefined"){
@@ -52,7 +53,7 @@
 	    document.getElementById("Stuff").value = proj[random];	
 	}
   </script>
-<body id="Stuff" background="fill()">
+<body background="img_string">
 	<center>
 		<input type="Button"  id = "Button"  value = "Click me" onClick="fill()"/>
 	</center> 
