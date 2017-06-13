@@ -51,16 +51,11 @@
 	function callArray(){	
 	    var random = Math.floor(Math.random()*jsoncount)	
 	    document.getElementById("Button").value = proj[random];
-	    img_string = img[random];	
+	    document.body.background = img[random];	
 	}
-		
-	function callImg(){
-          console.log(img_string);
-	  var random = Math.floor(Math.random()*jsoncount)	
-	  img_string = img[random];	
-	} 
+
   </script>	
-<body background="fill();">
+<body background="background.png">
 	
 	<center>
 		<input type="Button"  id = "Button"  value = "Click me" onClick="fill()"/>
