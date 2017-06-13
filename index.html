@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-</head>
-/*	
+</head>	
 <style>
 	.button{
 		border: none;
@@ -36,8 +35,7 @@
 	document.getElementById("tag").innerHTML=word;
 	var myTitle
 	var jsoncount = 0;
-	var proj = [];
-	// When fill is called it will acess the JSON file with the data of the projects	
+	var proj = [];	
         function fill() {	
 	  $.getJSON("proj.json", function(json){    
 	     while(typeof json["proj" + jsoncount] != "undefined"){
@@ -48,7 +46,8 @@
           });	  	
         }
 
-	function callArray(){ 
+	function callArray(){
+	    var random	
 	    document.getElementById("Button").value = proj[random];
 	}
   </script>
