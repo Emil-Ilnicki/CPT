@@ -12,14 +12,12 @@
 	var proj = [];
 		
         function fill() {
-          if (jsoncount != 0) {
 	  $.getJSON("proj.json", function(json){
 	     while(typeof json["proj" + jsoncount] != "undefined"){  
 	     proj.push(json["proj" + jsoncount]["proj_name"]);
 	     jsoncount++;
 	     }	  
-          });
-	  }	  
+          });	  
 	  callArray();
         }
 
