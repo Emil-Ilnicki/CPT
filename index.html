@@ -12,16 +12,18 @@
 	var proj = [];
 		
         function fill() {
+          if (jsoncount != 0) {
 	  $.getJSON("proj.json", function(json){
 	     while(typeof json["proj" + jsoncount] != "undefined"){  
 	     proj.push(json["proj" + jsoncount]["proj_name"]);
 	     jsoncount++;
 	     }	  
           });
+	  }	  
+	  callArray();
         }
 
 	function callArray(){ 
-          fill();
 	  var random = Math.floor(Math.random()*jsoncount);
 	  	
 	  if (counter > 8){
@@ -34,6 +36,6 @@
   </script>
 <body>
 	<center><input type="text" id="myTextBox" /></center>
-	<center><input type="Button" id = "Button" value="Click me"  onClick="callArray()"/></center>
+	<center><input type="Button" id = "Button" value="Click me"  onClick="fill()"/></center>
 </body>
 </html>
