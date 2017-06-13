@@ -6,11 +6,12 @@
     },
     
     "proj1": {
-      "proj_name": "Stuff 2"
-      "img_name": "Estepa_Glass_JPEG.png"
+      "proj_name": "Stuff 2",
+      "img_name": "Estepa_Glass_JPEG.jpg"
     },
     
     "proj2": {
-      "proj_name": "Stuff 3"
+      "proj_name": "Stuff 3",
+      "img_name": "background.png"
     }
 }
