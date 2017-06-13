@@ -12,24 +12,27 @@
 	var proj = [];
 		
         function fill() {
+	  console.log("Fisrt");	
 	  $.getJSON("proj.json", function(json){
+		  console.log("Second");
 	     while(typeof json["proj" + jsoncount] != "undefined"){
+		      console.log("Third");
 	     proj.push(json["proj" + jsoncount]["proj_name"]);
 	     jsoncount++;
 	     }	  
           });	  
+	   console.log("Fourth"); 	
 	  callArray();
         }
 
 	function callArray(){ 
 	  var random = Math.floor(Math.random()*jsoncount);
-	  console.log(jsoncount);
-	  console.log(proj[0]);
+	   console.log("Fifth");
 	  	
 	  if (counter > 8){
 	    document.getElementById("Button").disabled = true; 
 	  }
-	  
+	    console.log("Sixith");
 	    counter++;
 	    document.getElementById("myTextBox").value = proj[random];
 	}
