@@ -13,8 +13,7 @@
 	
 	// When fill is called it will acess the JSON file with the data of the projects	
         function fill() {	
-	  $.getJSON("proj.json", function(json){
-	     //    
+	  $.getJSON("proj.json", function(json){    
 	     while(typeof json["proj" + jsoncount] != "undefined"){
 	     proj.push(json["proj" + jsoncount]["proj_name"]);
 	     jsoncount++;
@@ -34,7 +33,6 @@
 	}
   </script>
 <body>
-	<center><input type="text" id="myTextBox" /></center>
 	<center><input type="Button" id = "Button" value="Click me"  onClick="fill()"/></center> 
 </body>
 </html>
