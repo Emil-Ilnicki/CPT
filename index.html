@@ -12,10 +12,8 @@
 		
         function fill() {
 	  $.getJSON("proj.json", function(data){
-	   while(typeof json["proj" + counter] != "undefined"){
 	     console.log(data.proj+counter.proj_name0);
 	     counter++;
-	    }
           });
         }
 
