@@ -19,11 +19,12 @@
 		      console.log("Third");
 	     proj.push(json["proj" + jsoncount]["proj_name"]);
 	     jsoncount++;
-	     }	  
+	     }	   
+	     console.log("Fourth"); 	
+	     callArray();
           });	  
 	   console.log("Fourth"); 	
         }
-	callArray();
 
 	function callArray(){ 
 	  var random = Math.floor(Math.random()*jsoncount);
