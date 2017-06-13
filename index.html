@@ -14,22 +14,22 @@
         function fill() {
 	  $.getJSON("proj.json", function(json){
 	     while(typeof json["proj" + jsoncount] != "undefined"){  
-	     console.log(json["proj" + jsoncount]["proj_name"]);
+	     proj.push(json["proj" + jsoncount]["proj_name"]);
 	     jsoncount++;
 	     }	  
           });
         }
 
 	function callArray(){ 
-	  var random = Math.floor(Math.random()*3);
           fill();
+	  var random = Math.floor(Math.random()*jsoncount);
 	  	
 	  if (counter > 1){
 	    document.getElementById("Button").disabled = true; 
 	  }
 	  
 	    counter++;
-	    document.getElementById("myTextBox").value = proj[0];
+	    document.getElementById("myTextBox").value = proj[random];
 	}
   </script>
 <body>
