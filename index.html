@@ -49,9 +49,10 @@
 	function callArray(){
 	    var random = Math.floor(Math.random()*jsoncount)	
 	    document.getElementById("Button").value = proj[random];
+	    document.getElementById("Stuff").value = proj[random];	
 	}
   </script>
-<body id="" background="fill()">
+<body id="Stuff" background="fill()">
 	<center>
 		<input type="Button"  id = "Button"  value = "Click me" onClick="fill()"/>
 	</center> 
