@@ -12,9 +12,7 @@
 		
         function fill() {
 	  $.getJSON("proj.json", function(data){
-	     console.log(data.proj0.proj_name0);
-	     console.log(data.proj1.proj_name0);
-	     console.log(data.proj2.proj_name0);
+	     console.log(data.proj+counter.proj_name+counter);
 	     counter++;
           });
         }
