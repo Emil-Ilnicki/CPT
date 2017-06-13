@@ -12,7 +12,7 @@
 	var proj = [];
 		
         function fill() {
-	  $.getJSON("proj.json", function(data){
+	  $.getJSON("proj.json", function(json){
 	     while(typeof json["proj" + jsoncount] != "undefined"){  
 	     console.log(json["proj" + jsoncount]["proj_name" + jsoncount]);
 	     jsoncount++;
