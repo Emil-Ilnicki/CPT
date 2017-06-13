@@ -48,9 +48,10 @@
         }
 
 	function callArray(){
+	    console.log(img_string);	
 	    var random = Math.floor(Math.random()*jsoncount)	
 	    document.getElementById("Button").value = proj[random];
-	    document.getElementById("Stuff").value = proj[random];	
+	    img_string = proj[random];	
 	}
   </script>
 <body background="img_string">
