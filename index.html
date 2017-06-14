@@ -34,28 +34,35 @@
 	var jsoncount = 0;
 	var proj = [];
 	var img = [];
-	var img_string = "background.png";	
+	var img_string = "background.png";
+		
         function fill() {	
-	  $.getJSON("proj.json", function(json){    
+	  $.getJSON("proj.json", function(json){  
+	     // This while loop stops when a title in the json file is undefined. Look at json file to understand
 	     while(typeof json["proj" + jsoncount] != "undefined"){
+	     // fills proj array with data from the json file 
 	     proj.push(json["proj" + jsoncount]["proj_name"]);
+	     // fills img_name with data from the json file	     
              img.push(json["proj" + jsoncount]["img_name"]);		     
 	     jsoncount++;
 	     }	   
-	     callArray();
-	     callImg();	  
+	     callArray();  
           });	  	
         }
-
+	
+	// callArray calls the arrays that were filled in the function fill() and prints them out randomly
 	function callArray(){	
-	    var random = Math.floor(Math.random()*jsoncount)	
+	    var random = Math.floor(Math.random()*jsoncount)
+	    // Sets the element by the id Button to a random index in the proj array
 	    document.getElementById("Button").value = proj[random];
+	    // Changes body's background by accessing a random index in the img array that has strings stored inside of it 	
 	    document.body.background = img[random];	
 	}
 
   </script>	
 <body class="back" background="Background.png">
 	<center>
+		<! -- On click it calls the function fill() -- >
 		<input type="Button"  id = "Button" class="button" value = "Click me" onClick="fill()"/>
 	</center> 
 </body>
