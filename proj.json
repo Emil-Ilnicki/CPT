@@ -1,6 +1,3 @@
-"_comment": "This JSON file in an array with objects that have the assignment name (proj_name), and the image that corrisponds to the assignemnt (img_name)"
-"_comment": "To add another assignemnt do..." 
-
 {
     "proj0": {
       "proj_name": "Stuff 1",
