@@ -1,10 +1,5 @@
-// This JSON file in an array with objects that have the assignment name (proj_name), and the image that corrisponds to the assignemnt (img_name)
-// To add another assignemnt do... 
-
-// "proj3": {
-//   "proj_name": "(Project name goes here)",
-//   "img_name": "(image name goes here)"
-// }
+"_comment": "This JSON file in an array with objects that have the assignment name (proj_name), and the image that corrisponds to the assignemnt (img_name)"
+"_comment": "To add another assignemnt do..." 
 
 {
     "proj0": {
