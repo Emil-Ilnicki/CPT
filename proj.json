@@ -5,14 +5,13 @@
 //   "proj_name": "(Project name goes here)",
 //   "img_name": "(image name goes here)"
 // }
+
 {
-    
-    
     "proj0": {
-      "proj_name": "Stuff 1", // <--- Notice that we add a "," comma becauce there is another object we want to add
-      "img_name": "Background.png" // <--- Notice that we dont add a "," comma because were not going to add another object
+      "proj_name": "Stuff 1",
+      "img_name": "Background.png"
            
-    }, // <--- Notice that when were going to have another assignment we add a "," comma to the end of the "}" bracket
+    },
     
     "proj1": {
       "proj_name": "Stuff 2",
@@ -22,8 +21,5 @@
     "proj2": {
       "proj_name": "Stuff 3", 
       "img_name": "dX2maU0.jpg"
-    } // <--- Notice that when we want this assignment to the be the last assignment we do not want to add a "," comma
-      // If you wanted to add another assignment to this file copy the code at the very top and add a "," comma to the to the previous "}"
-    
-    
+    }   
 }
