@@ -1,17 +1,17 @@
 {
     "proj0": {
-      "proj_name": "Blue Twilight",
+      "proj_name": "Blue",
       "img_name": "images/Background.png"
            
     },
     
     "proj1": {
-      "proj_name": "Sky Whale",
+      "proj_name": "Sky",
       "img_name": "images/sky_for_dreamers_by_rhads-d6gbpqu.jpg"
     }, 
     
     "proj2": {
-      "proj_name": "Eater of Worlds", 
+      "proj_name": "Monster", 
       "img_name": "images/dX2maU0.jpg"
     }   
 }
