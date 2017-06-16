@@ -2,14 +2,19 @@ To add a new assignment go to the proj.json file and input the following code
 
 "proj3": { <--- The proj name increases by one each time thus proj0, proj1, porj2, porj3, proj4 ... etc
 
+
   "proj_name": "(Asssignment name goes here)", <--- A "," comma here because there is another object were going to add
-  "img_name": "images/(image name goes here, include file type)" <--- Notice there is no "," comma here because it is the last object        
+  
+  
+  "img_name": "images/(image name goes here, include file type)" <--- Notice there is no "," comma here because it is the last   object        
 }
 
 Make sure the proj before the proj you add has a "," comma after the "}" bracket ex.
 
 {
   "proj0": {
+  
+  
    "proj_name": "Blue Twilight",
    
    
@@ -18,6 +23,8 @@ Make sure the proj before the proj you add has a "," comma after the "}" bracket
   },
     
   "proj1": {     
+  
+  
     "proj_name": "Sky Whale",
     
     
@@ -25,6 +32,8 @@ Make sure the proj before the proj you add has a "," comma after the "}" bracket
   }, 
     
   "proj2": {
+  
+  
     "proj_name": "Eater of Worlds", 
     
     
@@ -34,6 +43,8 @@ Make sure the proj before the proj you add has a "," comma after the "}" bracket
   }, <--- COMMA GOES HERE BECAUSE WE ARE ADDING ANOTHER ANOTHER ASSIGNMENT   
     
   "proj3": {
+  
+  
     "proj_name": "Stuff 3",
     
     
