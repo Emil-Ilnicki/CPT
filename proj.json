@@ -5,37 +5,37 @@
            
     }, 
     
-    "proj2": {
+    "proj1": {
       "proj_name": "Water", 
       "img_name": "images/DSC_0016.JPG"
     },
     
-    "proj3": {
+    "proj2": {
       "proj_name": "Long Exposure",
       "img_name": "images/DSC_0017.JPG"
     },
     
-    "proj6": {
+    "proj3": {
       "proj_name": "Food",
       "img_name": "images/DSC_0077.JPG"
     },
     
-    "proj7": {
+    "proj4": {
       "proj_name": "Pattern",
       "img_name": "images/DSC_0090.JPG"
     },
     
-    "proj9": {
+    "proj5": {
       "proj_name": "Garbage",
       "img_name": "images/IMG_4576.JPG"
     },
     
-    "proj10": {
+    "proj6": {
       "proj_name": "Monsters",
       "img_name": "images/dX2maU0.jpg"
     },
     
-    "proj11": {
+    "proj7": {
       "proj_name": "In the Clouds",
       "img_name": "images/sky_for_dreamers_by_rhads-d6gbpqu.jpg"
     }
