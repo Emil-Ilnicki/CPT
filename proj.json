@@ -1,17 +1,17 @@
 {
     "proj0": {
       "proj_name": "Stuff 1",
-      "img_name": "/tree/master/images/Background.png"
+      "img_name": "/CPT/blob/master/images/Background.png"
            
     },
     
     "proj1": {
       "proj_name": "Stuff 2",
-      "img_name": "/tree/master/images/pngsky_for_dreamers_by_rhads-d6gbpqu.jpg"
+      "img_name": "/CPT/blob/master/images/pngsky_for_dreamers_by_rhads-d6gbpqu.jpg"
     }, 
     
     "proj2": {
       "proj_name": "Stuff 3", 
-      "img_name": "/tree/master/images/dX2maU0.jpg"
+      "img_name": "/CPT/blob/master/images/dX2maU0.jpg"
     }   
 }
