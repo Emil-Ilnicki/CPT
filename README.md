@@ -12,6 +12,8 @@ To add a new assignment go to the proj.json file and input the following code
 Make sure the proj before the proj you add has a "," comma after the "}" bracket ex.
 
 {
+
+
   "proj0": {
   
   
