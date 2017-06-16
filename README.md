@@ -15,7 +15,7 @@ Make sure the proj before the proj you add has a "," comma after the "}" bracket
 {
 
 
-  "proj0": {
+    "proj0": {
   
   
     "proj_name": "Blue Twilight",
@@ -24,9 +24,9 @@ Make sure the proj before the proj you add has a "," comma after the "}" bracket
     "img_name": "images/Background.png"
    
    
-  },
+    },
     
-  "proj1": {     
+    "proj1": {     
   
   
     "proj_name": "Sky Whale",
@@ -35,9 +35,9 @@ Make sure the proj before the proj you add has a "," comma after the "}" bracket
     "img_name": "images/sky_for_dreamers_by_rhads-d6gbpqu.jpg"
     
     
-  }, 
+    }, 
     
-  "proj2": {
+    "proj2": {
   
   
     "proj_name": "Eater of Worlds", 
@@ -46,9 +46,9 @@ Make sure the proj before the proj you add has a "," comma after the "}" bracket
     "img_name": "images/dX2maU0.jpg"
     
     
-  }, <--- COMMA GOES HERE BECAUSE WE ARE ADDING ANOTHER ASSIGNMENT   
+    }, <--- COMMA GOES HERE BECAUSE WE ARE ADDING ANOTHER ASSIGNMENT   
     
-  "proj3": {
+    "proj3": {
   
   
     "proj_name": "Stuff 3",
@@ -57,7 +57,7 @@ Make sure the proj before the proj you add has a "," comma after the "}" bracket
     "img_name": "images/imgname"
     
     
-  } <--- NO COMMA HERE BECAUSE WE DONT WANT ANYMORE ASSIGNMENTS IN THE JSON FILE 
+    } <--- NO COMMA HERE BECAUSE WE DONT WANT ANYMORE ASSIGNMENTS IN THE JSON FILE 
   
   
-}
+    }
