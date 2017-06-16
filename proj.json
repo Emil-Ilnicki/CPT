@@ -13,5 +13,55 @@
     "proj2": {
       "proj_name": "Monster", 
       "img_name": "images/dX2maU0.jpg"
-    }   
+    },
+    
+    "proj3": {
+      "proj_name": "Sky",
+      "img_name": "images/sky_for_dreamers_by_rhads-d6gbpqu.jpg"
+    },
+    
+    "proj4": {
+      "proj_name": "Sky",
+      "img_name": "images/sky_for_dreamers_by_rhads-d6gbpqu.jpg"
+    },
+    
+    "proj5": {
+      "proj_name": "Sky",
+      "img_name": "images/sky_for_dreamers_by_rhads-d6gbpqu.jpg"
+    },
+    
+    "proj6": {
+      "proj_name": "Sky",
+      "img_name": "images/sky_for_dreamers_by_rhads-d6gbpqu.jpg"
+    },
+    
+    "proj7": {
+      "proj_name": "Sky",
+      "img_name": "images/sky_for_dreamers_by_rhads-d6gbpqu.jpg"
+    },
+    
+    "proj8": {
+      "proj_name": "Sky",
+      "img_name": "images/sky_for_dreamers_by_rhads-d6gbpqu.jpg"
+    },
+    
+    "proj9": {
+      "proj_name": "Sky",
+      "img_name": "images/sky_for_dreamers_by_rhads-d6gbpqu.jpg"
+    },
+    
+    "proj10": {
+      "proj_name": "Sky",
+      "img_name": "images/sky_for_dreamers_by_rhads-d6gbpqu.jpg"
+    },
+    
+    "proj11": {
+      "proj_name": "Sky",
+      "img_name": "images/sky_for_dreamers_by_rhads-d6gbpqu.jpg"
+    },
+    
+    "proj12": {
+      "proj_name": "Sky",
+      "img_name": "images/sky_for_dreamers_by_rhads-d6gbpqu.jpg"
+    }
 }
