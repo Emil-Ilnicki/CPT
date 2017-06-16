@@ -1,17 +1,17 @@
 {
     "proj0": {
-      "proj_name": "Stuff 1",
+      "proj_name": "Blue Twilight",
       "img_name": "images/Background.png"
            
     },
     
     "proj1": {
-      "proj_name": "Stuff 2",
+      "proj_name": "Sky Whale",
       "img_name": "images/sky_for_dreamers_by_rhads-d6gbpqu.jpg"
     }, 
     
     "proj2": {
-      "proj_name": "Stuff 3", 
+      "proj_name": "Eater of Peace", 
       "img_name": "images/dX2maU0.jpg"
     }   
 }
