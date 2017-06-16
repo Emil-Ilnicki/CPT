@@ -18,10 +18,10 @@ Make sure the proj before the proj you add has a "," comma after the "}" bracket
   "proj0": {
   
   
-   "proj_name": "Blue Twilight",
+    "proj_name": "Blue Twilight",
    
    
-   "img_name": "images/Background.png"
+    "img_name": "images/Background.png"
    
    
   },
@@ -46,7 +46,7 @@ Make sure the proj before the proj you add has a "," comma after the "}" bracket
     "img_name": "images/dX2maU0.jpg"
     
     
-  }, <--- COMMA GOES HERE BECAUSE WE ARE ADDING ANOTHER ANOTHER ASSIGNMENT   
+  }, <--- COMMA GOES HERE BECAUSE WE ARE ADDING ANOTHER ASSIGNMENT   
     
   "proj3": {
   
