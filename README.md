@@ -3,8 +3,7 @@ To add a new assignment go to the proj.json file and input the following code
 "proj3": { <--- The proj name increases by one each time thus proj0, proj1, porj2, porj3, proj4 ... etc
 
   "proj_name": "(Asssignment name goes here)", <--- A "," comma here because there is another object were going to add into the array
-  "img_name": "images/(image name goes here, include file type)" <--- Notice there is no "," comma here because it is the last object in the array 
-           
+  "img_name": "images/(image name goes here, include file type)" <--- Notice there is no "," comma here because it is the last obje        
 }
 
 Make sure the proj before the proj you add has a "," comma after the "}" bracket ex.
