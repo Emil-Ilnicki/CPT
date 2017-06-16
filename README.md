@@ -7,6 +7,7 @@ To add a new assignment go to the proj.json file and input the following code
   
   
   "img_name": "images/(image name goes here, include file type)" <--- Notice there is no "," comma here because it is the last   object        
+  
 }
 
 Make sure the proj before the proj you add has a "," comma after the "}" bracket ex.
@@ -21,7 +22,8 @@ Make sure the proj before the proj you add has a "," comma after the "}" bracket
    
    
    "img_name": "images/Background.png"
-           
+   
+   
   },
     
   "proj1": {     
@@ -31,6 +33,8 @@ Make sure the proj before the proj you add has a "," comma after the "}" bracket
     
     
     "img_name": "images/sky_for_dreamers_by_rhads-d6gbpqu.jpg"
+    
+    
   }, 
     
   "proj2": {
@@ -54,4 +58,6 @@ Make sure the proj before the proj you add has a "," comma after the "}" bracket
     
     
   } <--- NO COMMA HERE BECAUSE WE DONT WANT ANYMORE ASSIGNMENTS IN THE JSON FILE 
+  
+  
 }
