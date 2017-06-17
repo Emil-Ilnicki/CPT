@@ -48,5 +48,30 @@
     "proj9": {
       "proj_name": "Reflection",
       "img_name": "images/J3M01P2.jpg"
+    }, 
+    
+    "proj10": {
+      "proj_name": "Creepy", 
+      "img_name": "images/JSDOY8I.jpg"
+    }, 
+    
+    "proj11": {
+      "proj_name": "Paradise", 
+      "img_name": "images/mujo_island_final_ed_by_andywong75-d9wikn1.jpg"
+    }, 
+    
+    "proj12": {
+      "proj_name": "Adventure", 
+      "img_name": "images/vYURYcZ.jpg"
+    }, 
+    
+    "proj13": {
+      "proj_name": "Rain", 
+      "img_name": "images/rainy-city-at-night-16438-1920x1080.jpg"
+    }, 
+    
+    "proj14": {
+      "proj_name": "School", 
+      "img_name": "images/blender3d_japanese_classroom_color_1_by_mclelun-d8dg5ue.jpg"
     }
 }
