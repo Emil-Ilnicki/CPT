@@ -34,7 +34,7 @@
 	var proj = [];
 	var img = [];
 	var img_string = "background.png";
-        function fill() {
+
 		$.getJSON("proj.json", function(json){  
 		// This while loop stops when a title in the json file is undefined. Look at json file to understand
 			while(typeof json["proj" + jsoncount] != "undefined"){
@@ -44,9 +44,8 @@
         		img.push(json["proj" + jsoncount]["img_name"]);		     
 			jsoncount++;
 			}
-			callArray();
-       		});	  
-	}
+       		});
+		
 	// callArray calls the arrays that were filled in the function fill() and prints them out randomly
 	function callArray(){	
 		var random = Math.floor(Math.random()*jsoncount)
@@ -57,6 +56,6 @@
 	}
 	</script>	
 	<body class="back" style="background-color:black;">
-		<input type="Button" id = "Button" class="pane" value="Find an Assignment" onClick="fill()"/>
+		<input type="Button" id = "Button" class="pane" value="Find an Assignment" onClick="callArray()"/>
 	</body>
 </html>
